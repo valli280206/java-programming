@@ -1,0 +1,18 @@
+import java.io.*;
+import java.util.*;
+
+public class Grossaryshop {
+
+    public static void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+        int A4sheet=sc.nextInt();
+        int Pen=sc.nextInt();
+        int Pencil=sc.nextInt();
+        int Eraser=sc.nextInt();
+        System.out.println("Items Details");
+        System.out.println("A4sheet:" +A4sheet);
+        System.out.println("Pen:" +Pen);
+        System.out.println("Pencil:" +Pencil);
+        System.out.println("Eraser:" +Eraser);
+    }
+}
