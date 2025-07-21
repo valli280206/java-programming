@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+   Scanner sc=new Scanner(System.in);
+        char l=sc.next().charAt(0);
+        if(l=='a'||l=='A'||l=='e'||l=='E'||l=='i'||l=='I'||l=='o'||l=='O'||l=='u'||l=='U' )
+        {
+            System.out.println("The Character "+l+" is Vowel");
+
+        }
+        else
+        {
+          System.out.println("The Character "+l+" is Consonant");  
+        }
+            }
+}
