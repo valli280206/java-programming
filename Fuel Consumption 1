@@ -1,0 +1,26 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args)
+    {
+         Scanner sc=new Scanner(System.in);
+        float a = sc.nextFloat();
+        float b = sc.nextFloat();
+        float c = (a/b)*100;
+        float d = (b * 0.6214f);
+        float e = (a * 0.2642f);
+        float f= d/e;
+        if(a<=0 || b<=0)
+        {
+            System.out.println("Invalid Input");
+           
+        }
+        else
+        {
+            System.out.printf("Liters/100KM\n%.2f\n",c);
+            System.out.printf("Miles/gallons\n%.2f\n",f);
+    }
+}
+}
