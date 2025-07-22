@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class solution{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String sn = sc.nextLine();
+        int ar = sc.nextInt();
+        int mk = sc.nextInt();
+        System.out.println("Name of the Student:" + sn);
+        if ((ar == 1 && mk > 70) || ((ar == 1 || ar == 2) && mk > 75))
+        {
+            System.out.println(sn + " is Eligible for Placement");
+        }
+        else 
+        {
+            System.out.println(sn + " is Not Eligible for Placement");
+        }
+    }
+}
