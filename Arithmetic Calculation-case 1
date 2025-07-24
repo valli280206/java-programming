@@ -1,0 +1,39 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+         int a = sc.nextInt();
+        int b = sc.nextInt();
+        char c = sc.next().charAt(0);
+        float d=0;
+        switch (c) 
+        {
+            case '+':
+                d=a+b;
+                System.out.println("Addition of two number is " + d) ;
+                break;
+            case '-':
+                d=a-b;
+                System.out.println("Subtraction of two number is " + d);
+                break;
+            case '*':
+                 d=a*b;                  
+                System.out.println("Multiplication of two number is " + d);
+                break;
+            case '/':
+                 d=a/b;
+                    System.out.println("Division of two number is " + d);
+               break;
+             case'%':
+                  d=a%b;
+                  System.out.println("Modulo of two number is" + d);
+                 default:
+                System.out.println("Invalid Input");
+                            
+    }
+          }
+              }
+
+        
