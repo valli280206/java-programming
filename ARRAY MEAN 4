@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    
+    public static void main(String[] args) {
+
+Scanner sc=new Scanner(System.in);
+        int size=sc.nextInt();
+        int arr[]=new int[size];
+        for(int i=0;i<size;i++)
+        {
+            arr[i]=sc.nextInt();
+        }
+        
+        int total=0;
+       
+        for(int i=0;i<size;i++)
+            total= total+arr[i];
+         float average= (float) total/size;
+        System.out.printf("Array Mean Value is %.2f ",average);
+    }
+}
